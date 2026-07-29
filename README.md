@@ -18,13 +18,13 @@ The goal of this project is to create an automated touchless mechanism triggered
 
 ## 🛠️ Hardware & Components
 
-| Component | Quantity | Description |
+| Component | Quantity | The need |
 | :--- | :---: | :--- |
 | **Arduino Uno R3** | 1 | Microcontroller board |
-| **HC-SR04 Ultrasonic Sensor** | 1 | Ultrasonic distance sensor (2cm – 400cm range) |
+| **HC-SR04 Ultrasonic Sensor** | 1 | Ultrasonic distance sensor (at least >9) |
 | **SG90 Micro Servo Motor** | 1 | 180° rotation micro servo |
-| **Breadboard** | 1 | Solderless breadboard for power distribution rails |
-| **Jumper Wires** | 7 | Male-to-Male hookup wires |
+| **Breadboard** | 1 | Extra Space |
+| **Wires** | 5/4 | Male-to-Male/Male-to-Female hookup wires |
 | **USB Cable (Type-A to Type-B)** | 1 | Microcontroller programming & power supply cable |
 
 ---
