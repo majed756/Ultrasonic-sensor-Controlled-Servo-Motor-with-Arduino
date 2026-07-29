@@ -115,3 +115,15 @@ void loop() {
 
   delay(100); // Small delay for sensor stability
 }
+```
+---
+## 🎯 How to Run with Arduino IDE
+
+1. Open the Arduino IDE on your computer.
+2. Connect your Arduino Uno via USB.
+3. Select Tools $\rightarrow$ Board $\rightarrow$ Arduino UNO.
+4. Select Tools $\rightarrow$ Port (choose your connected COM port).
+5. Copy and paste the C++ code into the editor window.
+6. lick Upload ($\rightarrow$).
+---
+## 🔍 Troubleshooting
