@@ -127,3 +127,13 @@ void loop() {
 6. lick Upload ($\rightarrow$).
 ---
 ## 🔍 Troubleshooting
+
+⚠️ Issue: Board Connected via USB but COM Port is Missing or Not Detected
+If your computer fails to detect the Arduino Uno board, or the Port selection menu in Arduino IDE is grayed out / empty:
+Cause: Many Arduino boards (especially third-party board revisions or clones using custom USB-to-Serial chips like FT232 or similar bridge controllers) require dedicated virtual COM port drivers to communicate with your computer's operating system.
+Solution:
+1. Download and install the VCP Drivers - FTDI (Virtual COM Port Drivers) for your operating system (Windows / macOS / Linux).
+<img width="1870" height="537" alt="image" src="https://github.com/user-attachments/assets/1e221195-cb09-4db9-b36f-25b90463fbe7" />
+
+2. Complete the installation wizard and restart the Arduino IDE.
+3. Reconnect your Arduino via USB — the COM port (e.g., COM3, COM4, or /dev/tty.usbserial...) will now appear properly under Tools $\rightarrow$ Port.
