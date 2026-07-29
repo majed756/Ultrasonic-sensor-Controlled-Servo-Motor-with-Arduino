@@ -46,15 +46,12 @@ Both the ultrasonic sensor and servo motor share the common 5V and GND rails on 
 | | **Orange Wire** (Signal) | Signal Wire | **Digital Pin 6** |
 
 ---
+## 🧪 Testing Results
+<img width="602" height="565" alt="image" src="https://github.com/user-attachments/assets/7f3a1e6b-0d7d-45d6-af35-157e1aeea0e6" />
 
-## 📐 Distance Calculation Formula
+<img width="457" height="497" alt="image" src="https://github.com/user-attachments/assets/895e15a1-c1c0-416c-a75b-4656bddaf8b0" />
 
-The distance $D$ (in cm) is calculated using the time duration $t$ (in microseconds) of the returned ultrasonic echo pulse:
 
-$$D = \frac{t \times 0.0343}{2}$$
-
-* **$0.0343\text{ cm/\mu s}$** represents the speed of sound in air.
-* Division by **$2$** accounts for the two-way travel path of the ultrasonic pulse (to the object and back).
 
 ---
 
